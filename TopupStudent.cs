@@ -1,3 +1,8 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
 namespace DEMOADAPTER
 {
     public class TopupStudent : Student
@@ -6,10 +11,10 @@ namespace DEMOADAPTER
 
         public TopupStudent()
         {
-            
+            Score = 50;
         }
 
-        public TopupStudent(string first, string last) : base(first, last)
+        public TopupStudent(string first, string last, int Score) : base(first, last)
         {
            
         }

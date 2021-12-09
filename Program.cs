@@ -1,11 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 namespace DEMOADAPTER
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
             List<Student> students = new List<Student>();
-            // add some students of different type
+            //add new student off different types
             TopupStudent s1 = new TopupStudent("John", "Lenon", 80);
             TopupStudent s2 = new TopupStudent("Paul", "Newman", 60);
 
@@ -22,7 +28,7 @@ namespace DEMOADAPTER
             {
                 System.Console.WriteLine(s);
             }
-
+            
         }
     }
 }
